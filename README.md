@@ -27,8 +27,8 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 * `multi_encoder`: Determine whether to use a tiled encoder.
 * `multi_decoder`: Determine whether to use a tiled decoder.
 * `models_to_cpu`: Determines whether to transfer other model weights to the CPU during model encoding and decoding.
-* `encoder_limit_area`: Use `tilde_encoder` when exceeding this resolution.
-* `decoder_limit_area`: Use `tilde_decoder` when exceeding this resolution.
+* `encoder_limit_area`: Use tilde_encoder when exceeding this resolution.
+* `decoder_limit_area`: Use tilde_decoder when exceeding this resolution.
 * `num_inference_steps`: The number of denoising steps in the first stage. More denoising steps usually lead to a higher quality image at the expense of slower inference.
 * `num_resample_timesteps`: Determines the number of diffusion steps during the upsampling stage.
 
