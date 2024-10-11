@@ -42,3 +42,5 @@ At the same time, we would like to extend our gratitude to other related works f
 [***MultiDiffusion***](https://github.com/omerbt/MultiDiffusion)
 [***ScaleCrafter***](https://github.com/YingqingHe/ScaleCrafter)
 [***AccDiffusion***](https://github.com/lzhxmu/AccDiffusion)
+[***SDXL***](https://github.com/Stability-AI/generative-models)
+[***Stable Diffusion***](https://github.com/Stability-AI/StableDiffusion)
