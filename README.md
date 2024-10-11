@@ -18,11 +18,10 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 * In the second stage, AP-LDM divides the upsampling process into several sub-stages, where the number of sub-stages can be specified. Additionally, the number of diffusion-denoising steps in each sub-stage can also be specified. This is achieved by providing an initialization rate list (i.e., `init_rates`).
 
 ## Text to Image Generation
-'''
-conda create -n demofusion python=3.9
-conda activate demofusion
-pip install -r requirements.txt
-'''
+
+  conda create -n demofusion python=3.9
+  conda activate demofusion
+  pip install -r requirements.txt
 
 ## Parameter
 * `gpu_ids`: Determines which GPU to use. If set to `None`, the CPU will be used.
