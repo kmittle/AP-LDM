@@ -19,9 +19,9 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 
 ## Text to Image Generation
 
-  conda create -n demofusion python=3.9
-  conda activate demofusion
-  pip install -r requirements.txt
+    conda create -n apldm python=3.9
+    conda activate apldm
+    pip install -r requirements.txt
 
 ## Parameter
 * `gpu_ids`: Determines which GPU to use. If set to `None`, the CPU will be used.
