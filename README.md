@@ -14,3 +14,7 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 ![image](fig/ablation_guidance_scale.png)
 * When using Attentive Guidance, it is necessary to delay its effect by 3 to 5 steps (in the case of 50-step sampling), which results in higher-quality images.
 * In the second stage, AP-LDM divides the upsampling process into several sub-stages, where the number of sub-stages can be specified. Additionally, the number of diffusion-denoising steps in each sub-stage can also be specified. This is achieved by providing an initialization rate list (i.e., `init_rates`).
+
+## Parameter
+* gpu_ids: Determines which GPU to use. If set to `None`, the CPU will be used.
+* 
