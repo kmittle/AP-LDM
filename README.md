@@ -16,5 +16,16 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 * In the second stage, AP-LDM divides the upsampling process into several sub-stages, where the number of sub-stages can be specified. Additionally, the number of diffusion-denoising steps in each sub-stage can also be specified. This is achieved by providing an initialization rate list (i.e., `init_rates`).
 
 ## Parameter
-* gpu_ids: Determines which GPU to use. If set to `None`, the CPU will be used.
-* 
+* `gpu_ids`: Determines which GPU to use. If set to `None`, the CPU will be used.
+* `image_sizes`: The size of the generated images, input as a list, allowing multiple sizes to be specified.
+* `init_rates`: Determines the number of upsampling steps and the extent of the diffusion-denoising process after each upsampling.
+* `attn_guidance_scale`: The linear weighting factor of Attentive Guidance.
+* `attn_guidance_density`: Determines which steps use Attentive Guidance.
+* `attn_guidance_decay`: The decay method of the Attentive Guidance scale; if set to `None`, no decay is applied.
+* `multi_encoder`: Determine whether to use a tiled encoder.
+* `multi_decoder`: Determine whether to use a tiled decoder.
+* `models_to_cpu`: Determines whether to transfer other model weights to the CPU during model encoding and decoding.
+* `encoder_limit_area`: Use `tilde_encoder` when exceeding this resolution.
+* `decoder_limit_area`: Use `tilde_decoder` when exceeding this resolution.
+* `num_inference_steps`: The number of denoising steps in the first stage. More denoising steps usually lead to a higher quality image at the expense of slower inference.
+* `num_resample_timesteps`: Determines the number of diffusion steps during the upsampling stage.
