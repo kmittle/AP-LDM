@@ -6,4 +6,3 @@ Official implementation of [***AP-LDM: Attentive and Progressive Latent Diffusio
 It consists of two stages: (1) synthesizing high-quality images at the training resolution using **Attentive Guidance**, and (2) generating finer high-resolution images through pixel upsampling and "diffusion-denoising."
 
 ## Overview of AP-LDM
-[swiftfusion.pdf](https://github.com/user-attachments/files/17338992/swiftfusion.pdf)
