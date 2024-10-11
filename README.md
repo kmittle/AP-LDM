@@ -7,3 +7,4 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 
 ## Overview of AP-LDM
 ![image](fig/AP-LDM.png) 
+* Attentive Guidance enhances the structural consistency of the latent representation using a parameter-free self-attention mechanism, which is achieved through linear weighting.
