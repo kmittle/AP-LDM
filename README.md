@@ -1,5 +1,6 @@
 # AP-LDM
 Official implementation of [***AP-LDM: Attentive and Progressive Latent Diffusion Model for Training-Free High-Resolution Image Generation***](https://arxiv.org/abs/2410.06055v1).
+The ControlNet version and video generation are coming soon!
 
 ![image](fig/teaser.png) 
 
@@ -29,3 +30,6 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 * `decoder_limit_area`: Use `tilde_decoder` when exceeding this resolution.
 * `num_inference_steps`: The number of denoising steps in the first stage. More denoising steps usually lead to a higher quality image at the expense of slower inference.
 * `num_resample_timesteps`: Determines the number of diffusion steps during the upsampling stage.
+
+## Generating with/without Attentive Guidance
+![image](fig/appendix_ablation_ag.png) 
