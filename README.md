@@ -34,3 +34,11 @@ It consists of two stages: (1) synthesizing high-quality images at the training 
 
 ## Generating with/without Attentive Guidance
 ![image](fig/appendix_ablation_ag.png) 
+
+## Acknowledgments & Related Work
+Special Thank to the great project - [***DemoFusion***](https://github.com/PRIS-CV/DemoFusion).
+
+At the same time, we would like to extend our gratitude to other related works for providing us with invaluable references.
+[***MultiDiffusion***](https://github.com/omerbt/MultiDiffusion)
+[***ScaleCrafter***](https://github.com/YingqingHe/ScaleCrafter)
+[***AccDiffusion***](https://github.com/lzhxmu/AccDiffusion)
